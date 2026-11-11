@@ -1,0 +1,95 @@
+# Local workspace data (never commit datasets or caches)
+/data/
+/datasets/
+
+# Python
+__pycache__/
+*.py[codz]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+__pypackages__/
+
+# Build and packaging
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+sdist/
+wheels/
+*.egg-info/
+*.egg
+MANIFEST
+
+# Tests, caches, and type checkers
+.cache/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pyre/
+.pytype/
+.hypothesis/
+.tox/
+.nox/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Documentation builds
+docs/_build/
+site/
+
+# Training logs and experiment tracking
+logs/
+**/logs/
+runs/
+outputs/
+checkpoints/
+artifacts/
+**/artifacts/
+wandb/
+**/wandb/
+
+# Local datasets and simulator diagnostics
+*.npz
+*.npy
+*.bag
+*.mcap
+MJDATA.TXT
+
+# Model weights and exported policies
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.pypirc
+.streamlit/secrets.toml
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Codex / cloud workspace internals
+/.agents/
+/.aws/
+/.codex/
